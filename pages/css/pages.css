@@ -15,7 +15,16 @@ body {
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
+ 
+/* algemeen */
 
+h3 {
+    color: rgb(108,163,216);
+}
+
+h2 {
+    color: rgb(0,120,200); 
+}
 
 /* concurrentie */
 table{
