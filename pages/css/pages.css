@@ -69,10 +69,14 @@ th,td{
     padding: 5px;
 }
 
-/*lettertype*/
+/*lettertypes*/
 
 .bonnie {
     font-family: Ar bonnie;
+}
+
+.arial {
+    font-family: arial;
 }
 
 /*Knop op navigatiebalk*/
