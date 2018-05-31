@@ -1,5 +1,6 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: roboto, sans-serif;
+    font-style: normal;
     font-weight: 400;
     letter-spacing: -.022em;
     font-synthesis: none;
@@ -15,4 +16,68 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
-/* Voeg jouw css hieraan toe */
+
+/* concurrentie */
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    table-layout: fixed;
+    width: 100%;
+}
+
+th,td{
+    border: 1px solid black;
+}
+
+
+/* logo */
+.logo {
+    width: 8%;
+}
+
+
+/*kleuren*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.kleurcntn {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.kleur {
+  color:white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+  width: 19%;
+}
+
+.zwart { background: rgb(0,0,0);}
+.grijs { background: rgba(0,0,0,0.5);}
+.wit { background:rgb(255,255,255);}
+.geel { background:rgb(233,255,14);}
+.blauw { background:rgb(108,163,216);}
+
+.wit, .geel {
+    color: black;
+}
+
+.kleurinbox {
+    font-size: 12px;
+    padding: 5px;
+}
+
+/*lettertype*/
+
+.bonnie {
+    font-family: Ar bonnie;
+}
+
+/*Knop op navigatiebalk*/
+.navigatie {
+    color: black;
+    text-shadow:  -1px 0 rgb(108,163,216), 0 1px rgb(108,163,216),
+    1px 0 rgb(108,163,216), 0 -1px rgb(108,163,216);
+}
